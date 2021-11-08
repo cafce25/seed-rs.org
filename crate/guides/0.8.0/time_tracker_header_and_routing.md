@@ -492,10 +492,10 @@ Edit `index.html`:
 ```
 
 Now your website and routing should work for both url:
-- [localhost:8000/](http://localhost:8000/)
-- [localhost:8000/ui](http://localhost:8000/ui)
+- [localhost:8080/](http://localhost:8080/)
+- [localhost:8080/ui](http://localhost:8080/ui)
 
-And other base path like [localhost:8000/foo](http://localhost:8000/foo) would still show `NotFound` page.
+And other base path like [localhost:8080/foo](http://localhost:8080/foo) would still show `NotFound` page.
 
 _How it works:_ Do you still remember how routing works from the previous TodoMVC example - especially `url.next_path_part()`? I hope so. Seed is searching for a `base` element while the app is starting. When Seed finds the elements, it saves the associated `href` value (aka base path). And then, it compares the base path with the current url on each url change or root `init` call. If the base path is a prefix of the current url, it just basically calls `url.next_path_part` multiple times to "skip" the prefix. After that, the url is passed into the app.
 

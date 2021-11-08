@@ -46,9 +46,9 @@ The trade-off could be the worse UX because of redirects and inconsistent UI in 
 
    1. Name: `Time Tracker`
    1. Application Type: `Single Page Application`
-   1. Allowed Callback Urls: `http://localhost:8000`
-   1. Allowed Logout URLs: `http://localhost:8000`
-   1. Allowed Web Origins: `http://localhost:8000`
+   1. Allowed Callback Urls: `http://localhost:8080`
+   1. Allowed Logout URLs: `http://localhost:8080`
+   1. Allowed Web Origins: `http://localhost:8080`
    1. Click the button `SAVE CHANGES`
 
 1. Note somewhere the `Domain` and `Client ID` values from the same tab.

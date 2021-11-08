@@ -738,7 +738,7 @@ pub fn view<Ms>() -> Node<Ms> {
 
 ---
 
-Try to open your running project in a browser - [localhost:8000/](http://localhost:8000/) - and you should see a blank window with the text "Root view" in the top-left corner.
+Try to open your running project in a browser - [localhost:8080/](http://localhost:8080/) - and you should see a blank window with the text "Root view" in the top-left corner.
 
 We'll write a header and learn how to switch between pages in the next chapter.
 

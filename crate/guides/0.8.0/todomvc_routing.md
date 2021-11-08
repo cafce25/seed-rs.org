@@ -57,7 +57,7 @@ fn init(mut url: Url, _: &mut impl Orders<Msg>) -> Model {
     }
 }
 ```
-Update the code in your app and then go to [localhost:8000/#/active](http://localhost:8000/#/active) and look at the [console log](https://developer.mozilla.org/en-US/docs/Tools/Web_Console/Opening_the_Web_Console). You should see:
+Update the code in your app and then go to [localhost:8080/#/active](http://localhost:8080/#/active) and look at the [console log](https://developer.mozilla.org/en-US/docs/Tools/Web_Console/Opening_the_Web_Console). You should see:
 ```
 Url {
     next_path_part_index: 0,
@@ -116,7 +116,7 @@ _Seed API design decision_: Once your app is big enough and there are many pages
 
 ## 3. `remaining_hash_path_parts`
 
-Go to [localhost:8000/#/active/foo/bar](http://localhost:8000/#/active/foo/bar). `Active` filter is activated. It isn't expected behaviour in the most cases. App should show something like "404 Page Not Found" or at least ignore it to prevent future conflicts when e.g. `/active/foo` becomes a valid standalone page.
+Go to [localhost:8080/#/active/foo/bar](http://localhost:8080/#/active/foo/bar). `Active` filter is activated. It isn't expected behaviour in the most cases. App should show something like "404 Page Not Found" or at least ignore it to prevent future conflicts when e.g. `/active/foo` becomes a valid standalone page.
 
 There are two solutions:
     
