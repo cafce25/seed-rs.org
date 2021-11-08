@@ -371,12 +371,12 @@ enum ChangesStatus {
 
 pub struct Client {
     name: String,
-    projects: BTreeMap<Ulid, Project>,
+    projects: BTreeMap<ProjectId, Project>,
 }
 
 struct Project {
     name: String,
-    time_entries: BTreeMap<Ulid, TimeEntry>,
+    time_entries: BTreeMap<TimeEntryId, TimeEntry>,
 }
 
 struct TimeEntry {
