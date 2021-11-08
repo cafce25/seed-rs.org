@@ -23,7 +23,7 @@ We'll try to make the app as simple as possible but also not too simple so you'l
 ### Projects
 
 - Users can create new projects - all projects would have only one property - a name.
-- Users can modify clients.
+- Users can modify projects.
 - Users can delete projects. It would also delete all dependent entities.
 - Each project has to be associated with the one client.
 
