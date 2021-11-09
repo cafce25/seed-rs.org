@@ -53,13 +53,6 @@ The trade-off could be the worse UX because of redirects and inconsistent UI in 
 
 1. Note somewhere the `Domain` and `Client ID` values from the same tab.
 
-1. Edit universal login (menu item `Universal Login`, tab `Settings`):
-
-   ![Auth0 Experience](/static/images/time_tracker_auth0_experience.png)
-
-   1. Switch `Experience` to `New`.
-   1. Confirm with `SAVE CHANGES`
-
 ## 2. Auth0 SDK initialization
 
 We'll move the app initialization script from `index.html` to `index.js`, fetch auth data and pass user data from SDK's JS Auth0 client to the Rust part of the app.
